@@ -1,8 +1,9 @@
 body {font-family: 'Poppins', sans-serif;}
 li{list-style: none;}
 a{text-decoration: none; color: black;}
-a:hover{text-decoration: none;}
+a:hover{text-decoration: none; color: black;}
 p{margin: 0;}
+h2{font-size: 32px; font-weight: 700; margin-top: 9rem; margin-bottom: 5rem;}
 
 .container{
   width: 1920px;
@@ -68,9 +69,11 @@ header{
 #main{
   background-image: url(../img/bg-image.png);
   background-repeat: no-repeat;
-  background-size: contain;
-  height: 100vh;
+  background-size: cover;
+  height: 90vh;
   width: 100%;
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
   .text + div{
     background-color: #7B61FF;
     width: 30%;
@@ -139,5 +142,18 @@ header{
         }
       }
     }
+  }
+}
+
+#popular{
+  img{
+    min-width: 50px;
+    max-width: 170px;
+    display: inline-block;
+    margin-bottom: .5rem;
+  }
+  p{
+    font-size: 14px;
+    color: #979797;
   }
 }
