@@ -311,3 +311,37 @@ header .user .user_img::before {
 #tip ul li:nth-child(3) i {
   background-image: url(../img/icon/message.png);
 }
+
+#activities .title {
+  margin-top: 9rem;
+  margin-bottom: 5rem;
+}
+#activities .title h2 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+#activities .title button {
+  background-color: #F6F4FF;
+  border-radius: 10px;
+}
+#activities .title button span {
+  color: #7B61FF;
+}
+#activities .title button i {
+  background-image: url(../img/icon/arrow.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+}
+#activities .content {
+  width: 25%;
+}
+#activities .content img {
+  width: 100%;
+}
+#activities .content p {
+  font-size: 18px;
+  font-weight: 500;
+}
