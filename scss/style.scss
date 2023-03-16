@@ -346,3 +346,33 @@ header{
     }
   }
 }
+
+#about{
+  margin-top: 9rem; margin-bottom: 5rem;
+  h2{
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  button{
+    background-color: #F6F4FF;
+    border-radius: 10px;
+    span{
+      color: #7B61FF;
+    }
+    i{
+      background-image: url(../img/icon/arrow.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+    }
+  }
+  .img_section{
+    img{
+      width: 100%;
+      border-radius: 20px;
+    }
+  }
+
+}

@@ -345,3 +345,31 @@ header .user .user_img::before {
   font-size: 18px;
   font-weight: 500;
 }
+
+#about {
+  margin-top: 9rem;
+  margin-bottom: 5rem;
+}
+#about h2 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+#about button {
+  background-color: #F6F4FF;
+  border-radius: 10px;
+}
+#about button span {
+  color: #7B61FF;
+}
+#about button i {
+  background-image: url(../img/icon/arrow.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+}
+#about .img_section img {
+  width: 100%;
+  border-radius: 20px;
+}
