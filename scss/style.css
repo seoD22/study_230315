@@ -21,6 +21,7 @@ p {
 }
 
 .container {
+  min-width: 1920px;
   max-width: 1920px;
   padding-left: 279px;
   padding-right: 279px;
@@ -433,6 +434,11 @@ footer .ft_5 button i {
   display: inline-block;
   height: 15px;
   width: 15px;
+}
+footer .mail_text {
+  background-color: #FFFFFF;
+  padding: 1rem;
+  border-radius: 10px;
 }
 footer h5 {
   font-size: 18px;

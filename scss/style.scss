@@ -5,6 +5,7 @@ a:hover{text-decoration: none; color: black;}
 p{margin: 0;}
 
 .container{
+  min-width: 1920px;
   max-width: 1920px;
   padding-left: 279px;
   padding-right: 279px;
@@ -436,6 +437,11 @@ footer{
         width: 15px;
       }
     }
+  }
+  .mail_text{
+    background-color: #FFFFFF;
+    padding: 1rem;
+    border-radius: 10px;
   }
   h5{
     font-size: 18px;
