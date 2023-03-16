@@ -110,7 +110,7 @@ header .user .user_img::before {
 #main .search {
   background-color: #FFFFFF;
   border-radius: 10px;
-  width: 65%;
+  width: 80%;
   margin-top: 8rem;
 }
 #main .search i {
